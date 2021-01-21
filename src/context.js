@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
 import axios from "axios";
 export const API_ENDPOINT = "http://www.omdbapi.com/?&apikey=8566110e&";
-//https://react-movie-search-app99.netlify.app/
+
 export const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
